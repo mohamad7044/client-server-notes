@@ -1,0 +1,109 @@
+# almondo #1
+
+a language that doesn't affect the way you think about programming 
+is not worth knowing.
+
+knowing what you don't know
+
+quick review, scaffolding academically
+maybe a bit fast, but we cannot accodomate everybody
+
+OO inheritence
+familiar with http, html, db design
+
+RoR and pedagogy
+
+RPC protocol = HTTP
+ascii based request/reply protocol run over TCP/IP
+protocol headers specify metadata about request
+stateless - every transaction is separated from other transactions
+
+browser opens TCP connection to server on port 80
+get /index.html http/1.0
+User agent: mozilla []
+.................
+cookies: erkdjdkdj
+
+server replies
+http:1.0 200 OL
+content-length:
+content-type: text/html
+
+<html>
+....
+</html>
+
+<html>
+elements
+...
+</html>
+
+element attributes -> 
+CSS - visual appearance
+XHTML
+
+dynamic content generation
+
+static pages 
+
+cookies - tie together as a session
+
+framework - libraries and functions for development
+
+template - fill out
+
+POST -> 
+
+% rails hellowork
+app/ mvc + helpers
+script/
+
+build infrastructure
+
+controller -> logic
+
+MVC
+
+V <-> C -> M
+^		   ^
+|__________|
+
+C - ruby code
+V - html template
+M - sql tables
+
+COC
+
+a data model called Student
+/app/model/students.rb
+
+SQL table students
+table row = object instance
+table column = object atributes
+
+controller 
+/app/controller/students_controller.rb
+# methods , map to controller methods
+
+view
+/app/view/student/*.rhtml
+
+each controller method map a view
+controller -> view ( in /app/view/student )
+
+# add method -> add view
+
+# setup form, setup display
+
+Ruby - dynamically type, interpreted, OO, functionally inspired,
+made in Japan
+
+Rails - web application framework that
+- use MCV design pattern
+- emphasis convention over configuration
+- leverage ruby - dynamic typing, metaprogramming,
+OO
+- framework - class/utilities libraries
+
+
+
