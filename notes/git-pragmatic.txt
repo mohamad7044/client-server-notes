@@ -104,6 +104,77 @@ git merge --squash demo # multiple commit on branch demo
 
 $ Cherry-pick
 
+# move to branch 
+git checkout branch
+~ edit files
+git commit -m "add"
+~ get the SHA1 code
+git checkout master
+git cherry-pick <SHA1>
+
+#multiple commit
+git reset --hard HEAD^
+~ removed last commit
+git cherry-pick -n <SHA>
+~ do another cherry-pick
+git commit
+
+$ Conflict
+
+get checkout -b about master
+~ edit
+git add about.html
+git commit -m "add"
+git branch about2 about
+~ edit
+git commit -m "java" -a
+
+~ create about2 before commiting second edit
+git checkout about2
+~ edit
+git commit -m "add about2" -a
+
+about <-> about2 ( conflict )
+
+about -> a.html.1 -> a.html.2 
+         |
+	 |
+	 -> about2-> a.html.3
+
+git checkout about
+git merge about2
+#conflict
+
+<<<<<<<<<< current branch
+>>>>>>>>>> other branch
+
+~ edit about2 
+~ save, and commit
+
+git mergetool
+git commit
+
+# delete branch
+
+git branch -d about2
+~ successful if any changes has been merged
+git branch -D about ( force )
+
+# rename
+git branch -m contact contacts
+	      <old>   <new>
+
+$ 6 Git history
+
+git log
+git log --since="5 hours" / pg 83
+
+
+
+
+
+
+
 
 
 
