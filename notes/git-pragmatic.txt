@@ -169,6 +169,51 @@ $ 6 Git history
 git log
 git log --since="5 hours" / pg 83
 
+git log <oldest>..<newest>
+
+git log -l HEAD^ <- ^ minus one, revison comes before that
+    	   	      revision
+
+<2009-07-02 Thu>
+
+looking at diff
+
+git diff <SHA1>
+git diff --stat 1.0
+
+git blame hello.html # who do what, when
+
+git commit -C HEAD -a --amend
+
+git revert -n HEAD
+
+git reset -soft|--hard HEAD^
+
+reordering comment
+
+git rebase -i HEAD=~3
+git rebase -i <SHA1>^
+
+git rebase --continue
+
+$ 7 remote
+
+
+git://github.com/tswicegood/my-site-chp6.git
+
+
+http://github.com/tswicegood/my-site-chp6.git
+
+clone ~ create a local copy of the remote reposit.
+
+git clone git://github.com/tswicegood/my-site.git
+
+git fetch ( update , doesn't merge into local branch )
+
+git pull ( fetch and merge )
+
+git push
+
 
 
 
