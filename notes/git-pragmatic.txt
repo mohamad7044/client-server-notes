@@ -214,7 +214,28 @@ git pull ( fetch and merge )
 
 git push
 
+$ 8 organizing reposit
 
+git tag 1.0
+git tag
+
+# branching
+git checkout -b 
+
+git tag 1.0
+git checkout master
+git branch -D <branch>
+
+submodule
+git init
+git submodule
+git submodule add <remote> hocus
+git submodule
+git submodule init hocus
+
+$ 9 beyond basics
+
+gitosis
 
 
 
