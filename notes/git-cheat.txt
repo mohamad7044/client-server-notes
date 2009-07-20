@@ -1,0 +1,8 @@
+Git cheatsheat
+
+git init
+git add .
+git status
+git config user.name "mohd zamri murah"
+git config user.email "mohdzamrimurah@gmail.com"
+git log

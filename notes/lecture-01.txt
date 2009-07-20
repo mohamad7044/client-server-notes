@@ -1,3 +1,10 @@
 TS6233 Lecture 1
 
 This course is about client-server technology. Currently, this technology is considered similar to web technologies. Thus, it covers a whole lot of materilas, and new technologies.
+
+We would introduced 3 tools;
+1. latex - document processing. LaTeX is the standard format for conferences papers.
+2. git - 
+3. 
+
+
