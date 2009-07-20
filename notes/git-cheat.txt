@@ -1,8 +1,31 @@
 Git cheatsheat
 
 git init
-git add .
+git add . -> git commit
 git status
 git config user.name "mohd zamri murah"
 git config user.email "mohdzamrimurah@gmail.com"
 git log
+git show 
+git show-branch
+git rm  -> git commit
+git mv a b
+
+git clone 
+ls-lsa 
+diff -r
+
+git config --global user.name "mohd zamri"
+git config --global user.email "mohdzamrimurah@gmail.com"
+git config -l
+
+find .
+
+echo "hello world" > hello.txt
+git add hello.txt
+sha1 is unique
+
+
+git ls-files -s
+
+
