@@ -1,0 +1,83 @@
+ts6233 - projects and evaluations
+
+This is a graduate level class about technologies and web development. Thus, it is both exploratory and experimental. Students are encourage to try new ideas, tools and concepts. The lectures would try to explain some of the latest technologies. However, the pace and the breath of current technologies are often to wide to be sufficiently covered in lectures.
+
+Therefore, the projects and evaluation are design to allow the students changes to explore and experiment new ideas and concepts, to read about new things and to colloborate with friends. 
+
+Evaluation is designed to allow more project-based evaluation rather than exam-based evaluation. This hopefully would enhance colloration, experimental dan exploratory among the students.
+
+3 projects are required.
+
+1. graduate seminar - individual 
+
+students are required to give 15-20 minutes lecture about any techology that he/she considered relevent, important and current. This would be followed by a question-and-answer session. This would be peer-reviewed. Pick a topic you are familiar with or find interesting.
+
+Basically, things to cover;
+- what is it ?
+- how does it work ?
+
+e.g p2p
+what is p2p?
+how does it work ?
+
+each week, 1-2 students would be randomly selected to give the seminar. There is no makeup if you are chosen and you are not prepared or attended the class.
+
+Hopefully we would have 25+ interesting seminar to share, to discuss and to colloborate.
+
+You are free to choose your own topic.
+
+2. a review paper using LaTeX - individual
+
+A review paper paper is basically a review of a particular topic. This basically trace the history, important ideas and how the ideas changes with time. 
+
+The basic idea is; by doing review paper, you would learn the past history. By doing seminar, you would learn the future.
+
+This is not a research paper, meaning that you are not required to produce or develop any prototype. 
+
+Topics would be given, but you could suggest a topic. Choose one topic that you find interesting.
+
+Possible structure;
+- introduction
+- describe the technology
+
+Be advise that the university use www.turnitin.com to check for duplication and other academic issues. Thus, be extra cafeful in citation and referencing.
+
+3 RoR project - group of 2
+
+This is a group project with a group of 2. You could do it alone if you wants, there is no harm in it. Please do no ask to have 3 persons per group for whatever reasons. 2 person is enough.
+
+The objective is to implement a simple RoR project. This would introduced some of the current ideas in web development;
+
+agile web development
+object-relational mapping
+model-view-controller
+
+You would be given a list of popular sites. You job is to develop a site not-unlike the popular site using RoR.
+
+For instance, you could develop a site not-unlike amazon.com.
+
+This approach would allow you to focus on the functionality of the system, and not on the design. You just follow the design, and focus on how to implement the system using RoR.
+
+Evaluation
+
+the evaluation is design to be continous assessment, rather than exam-based. The final exam is a university requirement.
+
+seminar 10%				10%
+paper 5% - 10% - 15%	30% *
+project 5% - 10% - 15%	30% *
+final					30%
+
+there would be 3 assessment for the paper and the project. During each assessment, comments and suggestions would be given. In the spirit of agile, papers/projects need to make changes according to the comments/requests.
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 

@@ -1,0 +1,3 @@
+TS6233 Lecture 1
+
+This course is about client-server technology. Currently, this technology is considered similar to web technologies. Thus, it covers a whole lot of materilas, and new technologies.
