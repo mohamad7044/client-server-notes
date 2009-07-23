@@ -10,7 +10,7 @@ Evaluation is designed to allow more project-based evaluation rather than exam-b
 
 1. graduate seminar - individual 
 
-students are required to give 15-20 minutes lecture about any techology that he/she considered relevent, important and current. This would be followed by a question-and-answer session. This would be peer-reviewed. Pick a topic you are familiar with or find interesting.
+students are required to give 15-20 minutes lecture about any techology that he/she considered relevent, important and current. This would be followed by a question-and-answer session. This would be peer-reviewed. Pick a topic you are familiar with or find interesting. Your talk could be based on your working experiences, and past projects your are involved. It would be interesting to hear the technology and the solutions in th projects.
 
 Basically, things to cover;
 - what is it ?
