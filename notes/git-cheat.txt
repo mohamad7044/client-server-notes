@@ -1,5 +1,8 @@
 Git cheatsheat
 
+# o'reilly git
+#2009-07-22
+
 git init
 git add . -> git commit
 git status
@@ -27,5 +30,23 @@ sha1 is unique
 
 
 git ls-files -s
+
+
+git tag -m "v1.0" v1.0 
+
+cp5. file mgmt / index
+
+git status
+git add # if used on a dir, it run recursively
+git ls-files
+git add .
+git commit --all -m "msg" 
+git commit -m "mesg"
+
+git rm
+git mv
+
+ch. 6
+commits
 
 
