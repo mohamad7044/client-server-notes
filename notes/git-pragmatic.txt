@@ -11,6 +11,7 @@ starting
 clone - make a copy of another repository,
 	check out the master branch
 
+<<<<<<< HEAD:notes/git-pragmatic.txt
 fetch and merge remote repository into local repository
 push is to send changes to remote reposit
 pull is to fetch changes from remote reposit
@@ -96,6 +97,7 @@ git mv a b
 chapter 5 / branches
 
 git branch
+
 
 
 
