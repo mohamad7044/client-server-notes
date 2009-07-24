@@ -11,6 +11,26 @@ starting
 clone - make a copy of another repository,
 	check out the master branch
 
+fetch and merge remote repository into local repository
+push is to send changes to remote reposit
+pull is to fetch changes from remote reposit
+
+git config --global user.name "mohdzamri"
+git config --global user.email "mohdzamrimurah@gmail.com"
+git config --global color.ui "auto"
+
+we learn by repeatition
+
+chap. 3
+
+mkdir mysite
+cd mysite
+git init
+edit hello.txt
+git add hello.txt
+git commit -m "add hello"
+
+
 
 
 
