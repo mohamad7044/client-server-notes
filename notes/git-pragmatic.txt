@@ -31,6 +31,17 @@ git add hello.txt
 git commit -m "add hello"
 
 
+edit hello.html
+git add hello.html
+# tel git about new change to track
+git status
+git commit -m "make changes"
+git log -l
 
+# branching
+git branch <name> master
+edit hello.txt
+# still on master
+git commit -a
 
 
