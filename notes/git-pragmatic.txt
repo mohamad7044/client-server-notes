@@ -61,5 +61,44 @@ git tag
 git checkout master
 git rebase R1.0
 
+git -d R1.0
+git -D R1.0
+
+# branching from 
+git branch R1.0.1 V1.0
+git checkout R1.0.1
+
+git clone
+
+Chapter4.
+git commit -m "hello"
+git status
+
+
+git areas;
+
+working <-> stage <-> repo
+
+git diff # working/stage
+
+git diff --cached # stage/reposit
+
+git diff HEAD # working/repo
+
+
+# managing files
+git mv a b
+
+#ignore
+.gitignore # repository
+.git/info/exclude # locally
+
+chapter 5 / branches
+
+git branch
+
+
+
+
 
 
