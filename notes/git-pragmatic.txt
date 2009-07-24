@@ -44,4 +44,22 @@ edit hello.txt
 # still on master
 git commit -a
 
+git branch R1.0 master
+edit hello.txt
+git commit -a
+
+# edit branch
+git checkout R1.0
+edit hello.txt
+git commit -a
+
+## release
+git tag V1.0 R1.0
+git tag
+
+# rebase
+git checkout master
+git rebase R1.0
+
+
 
