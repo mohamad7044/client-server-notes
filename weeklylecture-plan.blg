@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (Web2C 2009)
+The top-level auxiliary file: weeklylecture-plan.aux
+The style file: plain.bst
+Database file #1: weeklylecture.bib
+Warning--empty publisher in sam-agile
+Warning--empty year in sam-agile
+Warning--empty publisher in thomas-programming
+Warning--empty year in thomas-programming
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            521 strings with 4662 characters,
+and the built_in function-call counts, 1755 in all, are:
+= -- 140
+> -- 116
+< -- 0
++ -- 46
+- -- 40
+* -- 117
+:= -- 315
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 72
+empty$ -- 133
+format.name$ -- 40
+if$ -- 349
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 12
+newline$ -- 31
+num.names$ -- 12
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 31
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 30
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 4
+while$ -- 12
+width$ -- 7
+write$ -- 56
+(There were 4 warnings)

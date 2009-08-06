@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{ediger2007advanced}
+B.~Ediger.
+\newblock {\em {Advanced rails}}.
+\newblock O'Reilly, 2007.
+
+\bibitem{griffiths2008head}
+D.~Griffiths.
+\newblock {\em {Head First Rails: A Learner's Companion to Ruby on Rails}}.
+\newblock O'Reilly Media, Inc., 2008.
+
+\bibitem{mcanally2007ruby}
+J.~McAnally, A.~Arkin, S.~Jacobs, K.~De~Weggheleire, I.~Spaanjaars,
+  B.~Bibeault, Y.~Katz, S.~Raymond, H.~Fulton, S.D. Olson, et~al.
+\newblock {\em {Ruby in practice}}.
+\newblock Wrox Press, 2007.
+
+\bibitem{richardson2007restful}
+L.~Richardson and S.~Ruby.
+\newblock {\em {RESTful web services}}.
+\newblock O'reilly, 2007.
+
+\bibitem{sam-agile}
+R.~Sam and H.D. Thomas.
+\newblock {\em {Agile web development with Rails}}.
+
+\bibitem{thomas-programming}
+D.~Thomas, C.~Fowler, and A.~Hunt.
+\newblock {\em {Programming Ruby 1.9: The pragmatic programmers' guide}}.
+
+\end{thebibliography}
