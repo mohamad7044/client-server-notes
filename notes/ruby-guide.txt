@@ -1,0 +1,31 @@
+Ruby is genuine OO language. In OO, you try to model concepts from the
+real world. During the process, you discover category of things needed
+to be represented in code. E.g, a "song" is one such category. In
+Ruby, you define a class to represent each of these category or
+entitiy or class. 
+
+A class is a combination of state (e.g name ) and methods that use
+that state ( e.g play song ).
+
+When you have classes, you need to create an instance of the
+class. For the class "Song", we may have instance for "Ruby Tuesday"
+and "String in Pearls". The word object is use interchangeably with
+class instance.
+
+objects are created by constructor.
+
+song1 = Song.new("Ruby Tuesday")
+song2 = Song.new("Python vs Ruby")
+
+these objects/instances are derived from the same class, but they have
+unique characteristics. each object have unique object ID.
+
+You can define instance variable, variable that are unique to each
+instance. With each class, you could instance methods/
+functionality. These instance methods have access to instance
+variables.
+
+methods are invoked by sending a message to object, with parameters. 
+
+puts 42.even?
+    (receiver).(method)

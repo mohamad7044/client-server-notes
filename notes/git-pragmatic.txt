@@ -1,102 +1,255 @@
 # git pragmatic
+# use 15/7/2009 for 12 days
 
 2009-07-24
 
 (c) Copyright 2009 zamri. All Rights Reserved. 
 
+chapter 3
+
 starting
+	- mkdir mysite
+	- cd mysite
 	- git init
-	- git clone
-
-clone - make a copy of another repository,
-	check out the master branch
-
-<<<<<<< HEAD:notes/git-pragmatic.txt
-fetch and merge remote repository into local repository
-push is to send changes to remote reposit
-pull is to fetch changes from remote reposit
-
-git config --global user.name "mohdzamri"
-git config --global user.email "mohdzamrimurah@gmail.com"
-git config --global color.ui "auto"
-
-we learn by repeatition
-
-chap. 3
-
-mkdir mysite
-cd mysite
-git init
-edit hello.txt
-git add hello.txt
-git commit -m "add hello"
-
 
 edit hello.html
 git add hello.html
-# tel git about new change to track
+git commit -a "add hello.html"
+git log
 git status
+
+edit hello.html
+git add hello.html # inform git about the changes
 git commit -m "make changes"
+
 git log -l
 
-# branching
-git branch <name> master
-edit hello.txt
-# still on master
-git commit -a
+# 3.4 branches
 
-git branch R1.0 master
-edit hello.txt
-git commit -a
+git branch RB master
+%edit files, now master 
+git commit -a 
 
 # edit branch
-git checkout R1.0
-edit hello.txt
+git checkout RB
+%edit files
 git commit -a
 
-## release
-git tag V1.0 R1.0
+$3.5 release
+
+git checkout RB
+git tag 1.0 RB
+git tag
+git checkout master
+git rebase RB
+git branch -d RB
+
+# branch
+git branch RB-1.0.1 1.0 # <branch> <tag>
+git checkout RB-1.0.1
+git log
+git archibe --format=zip \
+--prefix=mysite \
+   > mysite-1.0.zip
+
+
+
+
+Chapter4
+
+2009-07-15
+
+@ Clone
+
+git clone git://github.com/twsi/wheel.git mygite
+
+working -> staging -> commit -> reposit
+
+git add -i
+git add some-file
+git commit -m "another"
+git commit -a "another" -a
+
+git commit -m "changes" some-file
+
+git status
+git diff
+
+# diff between 3 areas; working, staging, commit
+
+git mv index.html hello.html
+git commit
+
+#ignore files
+.gitignore
+	*.swp
+.git/info/exclude
+
+@Chapter 5
+
+branch
+
+git branch new master
+git branch
+git checkout new
+git checkout -b experi master # create and switch
+
+gi -b checkout demo master
+~ add demo branch
+git add about.html
+git commit -a "about"
+git checkout master
+git merge demo  # merge demo + master
+git merge --squash demo # multiple commit on branch demo
+
+$ Cherry-pick
+
+# move to branch 
+git checkout branch
+~ edit files
+git commit -m "add"
+~ get the SHA1 code
+git checkout master
+git cherry-pick <SHA1>
+
+#multiple commit
+git reset --hard HEAD^
+~ removed last commit
+git cherry-pick -n <SHA>
+~ do another cherry-pick
+git commit
+
+$ Conflict
+
+get checkout -b about master
+~ edit
+git add about.html
+git commit -m "add"
+git branch about2 about
+~ edit
+git commit -m "java" -a
+
+~ create about2 before commiting second edit
+git checkout about2
+~ edit
+git commit -m "add about2" -a
+
+about <-> about2 ( conflict )
+
+about -> a.html.1 -> a.html.2 
+         |
+	 |
+	 -> about2-> a.html.3
+
+git checkout about
+git merge about2
+#conflict
+
+<<<<<<<<<< current branch
+>>>>>>>>>> other branch
+
+~ edit about2 
+~ save, and commit
+
+git mergetool
+git commit
+
+# delete branch
+
+git branch -d about2
+~ successful if any changes has been merged
+git branch -D about ( force )
+
+# rename
+git branch -m contact contacts
+	      <old>   <new>
+
+$ 6 Git history
+
+git log
+git log --since="5 hours" / pg 83
+
+git log <oldest>..<newest>
+
+git log -l HEAD^ <- ^ minus one, revison comes before that
+    	   	      revision
+
+<2009-07-02 Thu>
+
+looking at diff
+
+git diff <SHA1>
+git diff --stat 1.0
+
+git blame hello.html # who do what, when
+
+git commit -C HEAD -a --amend
+
+git revert -n HEAD
+
+git reset -soft|--hard HEAD^
+
+reordering comment
+
+git rebase -i HEAD=~3
+git rebase -i <SHA1>^
+
+git rebase --continue
+
+$ 7 remote
+
+
+git://github.com/tswicegood/my-site-chp6.git
+
+
+http://github.com/tswicegood/my-site-chp6.git
+
+clone ~ create a local copy of the remote reposit.
+
+git clone git://github.com/tswicegood/my-site.git
+
+git fetch ( update , doesn't merge into local branch )
+
+git pull ( fetch and merge )
+
+git push
+
+$ 8 organizing reposit
+
+git tag 1.0
 git tag
 
-# rebase
+# branching
+git checkout -b 
+
+git tag 1.0
 git checkout master
-git rebase R1.0
+git branch -D <branch>
 
-git -d R1.0
-git -D R1.0
+submodule
+git init
+git submodule
+git submodule add <remote> hocus
+git submodule
+git submodule init hocus
 
-# branching from 
-git branch R1.0.1 V1.0
-git checkout R1.0.1
+$ 9 beyond basics
 
-git clone
-
-Chapter4.
-git commit -m "hello"
-git status
+gitosis
 
 
-git areas;
-
-working <-> stage <-> repo
-
-git diff # working/stage
-
-git diff --cached # stage/reposit
-
-git diff HEAD # working/repo
 
 
-# managing files
-git mv a b
 
-#ignore
-.gitignore # repository
-.git/info/exclude # locally
 
-chapter 5 / branches
 
-git branch
+
+
+
+
+
+
+
 
 
 

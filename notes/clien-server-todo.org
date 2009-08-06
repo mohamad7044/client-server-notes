@@ -1,0 +1,22 @@
+Client-Server 2009
+
+
+* Technology Review
+
+** Git
+
+a distributed software configuration management.
+ 
+** TODO LaTeX							     :course:
+
+structured documents
+
+** RoR
+** Ruby
+
+
+
+* Seminar
+* Rail Project
+
+* Exam
