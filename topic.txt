@@ -1,0 +1,72 @@
+collective intelligence
+tagging(falksonomy)
+spam filter - bayesian ( 90% )
+web 2.0
+p2p
+cloud
+grid
+autonomus agents
+spider web
+antivirus
+unicode
+XML
+SSH
+SOA
+ipv6
+firewall
+SaaS
+Semantic Web
+DNS 
+network media
+intelligence virus
+ipsec
+sosial network
+botnet
+rss
+client-server
+cms - content management system
+vpn
+thin client
+voip
+open source
+ajax
+nanotechnology
+robotic
+facebook
+web services
+internet tv
+internet radio
+rfid
+barcode technology
+web methods - integration
+twitter
+federated search engine
+virus
+distributed database
+wifi/wimax
+gprs
+3g
+gsm
+cdma
+mac - mobile account
+iphone
+crm - customer relation mgmt
+machine vision
+public key infrastructure
+multimedia
+stegenography
+multiprogramming
+tcp/ip
+osi
+google apis
+window 7
+localization
+cgi
+adhoc
+blueray
+bluetooth
+ubuntu
+digital forentic
+dscm
+
+
